@@ -1,6 +1,6 @@
 # Pose-Estimation
 
-_Minerva_
+_Minerva_ \
 CAPSTONE PROJECT
 
 
