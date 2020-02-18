@@ -6,5 +6,5 @@ The capstone project investigates the effect of mapping a dataset into a latent 
 
 2. Generation results
 
-![](results/g1.gif)
+![](results/g1.gif)   ![](results/g2.gif)
 
