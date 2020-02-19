@@ -26,7 +26,21 @@ The capstone project investigates the effect of mapping a dataset into a latent 
 
 **Long sequences**
 
-What the network sees: ![](results/g1.gif "A") ![](results/g1.gif "B") 
+What the network sees: 
+![](results/long0.gif)
 
++5 generated frame:
+![](results/long5.gif)
+
++15 generated frame:
+![](results/long15.gif)
+
++30 generated frame:
+![](results/long30.gif)
+
++50 generated frame: 
+![](results/long50.gif)
+
+**More generated sequences:** https://drive.google.com/drive/u/0/folders/1T4I-VpoKf2Ae96JpF101RDN6eWr6k-dU
 
 
