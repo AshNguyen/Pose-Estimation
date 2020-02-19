@@ -12,4 +12,21 @@ The capstone project investigates the effect of mapping a dataset into a latent 
 
 ![](results/g2.gif)
 
-**Bad generation results**
+**Mode collapse**
+
+![](results/collapse1.gif) 
+
+![](results/collapse2.gif)
+
+**Drifting**
+
+![](results/move1.gif) 
+
+![](results/move2.gif)
+
+**Long sequences**
+
+What the network sees: ![](results/g1.gif "A") ![](results/g1.gif "B") 
+
+
+
