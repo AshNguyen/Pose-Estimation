@@ -42,3 +42,5 @@ What the network sees:
 ![](results/long50.gif)
 
 **More generated sequences:** https://drive.google.com/drive/u/0/folders/1T4I-VpoKf2Ae96JpF101RDN6eWr6k-dU
+
+**Processed data:** https://drive.google.com/file/d/1pH2bQS8jtqz7zSNH3QoHh68EjaWykHOF
