@@ -7,10 +7,6 @@ class Model_contract:
         from keras.optimizers import Adam
         assert latent_activation in ['relu', 'sigmoid', 'elu', 'tanh']
         assert output_activation in ['relu', 'sigmoid', 'elu', 'tanh']
-        if save_dir:
-            from keras.models import load_model
-            self.model = load_model(save_dir)
-
         self.save_dir = save_dir
         inputs = Input(shape=(13*3,))
         x = Dense(30, activation=latent_activation)(inputs)
@@ -61,9 +57,10 @@ class Model_expand:
         from keras.optimizers import Adam
         d = int(np.floor(latent_dim/n_latent_layer))
         assert d > 13*3
-        if save_dir:
-            from keras.models import load_model
-            self.model = load_model(save_dir)
+        # try:
+        #     from keras.models import load_model
+        #     self.model = load_model(save_dir)
+        # except:
         self.early_stop = early_stop
         self.save_dir = save_dir
         inputs = Input(shape=(13*3,))
